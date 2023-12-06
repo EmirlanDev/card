@@ -1,0 +1,132 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(176 199 216);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 100px;
+  height: 100vh;
+}
+
+/* CHECKOUT */
+
+.checkout {
+  background: url(./images/unsplash_Bq7nHY4trGA.png);
+  width: 390px;
+  height: 844px;
+  border-radius: 29px;
+  -webkit-box-shadow: 20px 20px 44px 6px rgba(0, 0, 0, 0.38);
+  -moz-box-shadow: 20px 20px 44px 6px rgba(0, 0, 0, 0.38);
+  box-shadow: 20px 20px 44px 6px rgba(0, 0, 0, 0.38);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.add-new-cart {
+  background: url(./images/unsplash_Bq7nHY4trGA.png);
+  width: 390px;
+  height: 844px;
+  border-radius: 29px;
+  -webkit-box-shadow: 20px 20px 44px 6px rgba(0, 0, 0, 0.38);
+  -moz-box-shadow: 20px 20px 44px 6px rgba(0, 0, 0, 0.38);
+  box-shadow: 20px 20px 44px 6px rgba(0, 0, 0, 0.38);
+}
+
+h1 {
+  color: #fff;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 28px;
+  font-weight: 700;
+  margin-top: 88px;
+}
+
+h2 {
+  color: #fff;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 20px;
+  font-weight: 300;
+  margin-top: 8px;
+}
+
+.btns {
+  display: flex;
+  align-items: center;
+  padding: 0 40px;
+  margin-top: 30px;
+}
+
+.btns h6 {
+  color: #fff;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 400;
+  margin-right: 130px;
+}
+
+.btns p {
+  color: #f90;
+  text-align: right;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 400;
+  display: flex;
+  align-items: center;
+}
+
+.btns p span {
+  margin-top: 3px;
+  margin-right: 3px;
+}
+
+.first-card {
+  background: url(./images/Gousian\ Layer.png);
+  width: 342px;
+  height: 190px;
+  margin-top: 8px;
+}
+
+.second-card {
+  background: url(./images/Card\ surface.png);
+  width: 342px;
+  height: 190px;
+  margin-top: 16px;
+  z-index: 2;
+}
+
+.checkout button {
+  color: #fff;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 24.519px;
+  letter-spacing: 0.54px;
+  text-transform: uppercase;
+  width: 196px;
+  height: 50px;
+  border-radius: 40px;
+  background: #f90;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  outline: none;
+  margin-top: 80px;
+}
+
+.first-card svg {
+  margin: 25px 0 0 25px;
+}
+
+
+/* CHECKOUT */
