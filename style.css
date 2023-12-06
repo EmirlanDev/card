@@ -38,6 +38,8 @@ body {
   -webkit-box-shadow: 20px 20px 44px 6px rgba(0, 0, 0, 0.38);
   -moz-box-shadow: 20px 20px 44px 6px rgba(0, 0, 0, 0.38);
   box-shadow: 20px 20px 44px 6px rgba(0, 0, 0, 0.38);
+  display: none;
+  flex-direction: column;
 }
 
 h1 {
@@ -81,6 +83,7 @@ h2 {
   font-weight: 400;
   display: flex;
   align-items: center;
+  cursor: pointer;
 }
 
 .btns p span {
